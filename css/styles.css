@@ -153,6 +153,9 @@ a {
 .hero {
   text-align: center;
 }
+.section {
+  padding: 95px 0;
+}
 .section-head {
   color: var(--primary-white-color);
   font-weight: 900;
@@ -203,6 +206,14 @@ a {
   letter-spacing: 0.03em;
   color: var(--text-title-color);
 }
+.servise-list {
+  display: flex;
+  justify-content: space-between;
+}
+.service-item {
+  width: calc((100% - 30px) / 3);
+  margin-right: 30px;
+}
 .service-description {
   color: var(--primary-white-color);
   background-color: rgba(47, 48, 58, 0.8);
@@ -215,12 +226,16 @@ a {
 }
 /*Наша команда*/
 .section-name {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-title-color);
+}
+.team-list:not(:last-child) {
+  width: calc((100% - 30px) / 4);
+  margin-right: 30px;
 }
 .team-name {
   font-weight: 500;
@@ -243,6 +258,11 @@ a {
 .social-networks:focus {
   color: var(--accent-text);
 }
+/*Постоянные клиенты*/
+.clients:not(:last-child) {
+  width: calc((100% - 30px) / 6);
+  margin-right: 30px;
+}
 
 /*footer*/
 .footer {
@@ -253,7 +273,10 @@ a {
 .logo.footer {
   color: var(--primary-white-color);
 }
-
+.footer .flexbox {
+  justify-content: space-between;
+  align-items: center;
+}
 .address-text {
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -261,7 +284,6 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-
 .address-text a {
   color: rgba(255, 255, 255, 0.6);
 }
