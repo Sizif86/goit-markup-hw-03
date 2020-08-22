@@ -50,44 +50,44 @@
     <!--Портфолио-->
 
     <main>
-      <section>
+      <section class="section">
         <h1 hidden>Портфолио</h1>
         <ul class="list button-item">
           <li class="btn">
             <button type="button" class="button-second">Все</button>
           </li>
           <li class="btn">
-            <button type="button" button type="button-second">Веб-сайты</button>
+            <button type="button" class="button-second">Веб-сайты</button>
           </li>
           <li class="btn">
-            <button type="button" button type="button-second">
+            <button type="button" class="button-second">
               Приложения
             </button>
           </li>
           <li class="btn">
-            <button type="button" button type="button-second">Дизайн</button>
+            <button type="button" class="button-second">Дизайн</button>
           </li>
           <li class="btn">
-            <button type="button" button type="button-second">Маркетинг</button>
+            <button type="button" class="button-second">Маркетинг</button>
           </li>
         </ul>
       </sectiion>
         <!--карточки-->
-      <section>  
-        <ul class="list">
-          <li>
+      <section class='container'>  
+        <ul class="list card-item">
+          <li class="card-item-list">
             <a href="#">
               <img src="./imegeshw2/portfolio/img8.jpg" alt="сайт" />
-              <p class="card-hover">
+              <!-- <p class="card-hover"> 
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
-              </p>
+               </p> -->
               <h2 class="title-card">Технокряк</h2>
               <p class="title-text">Веб-сайт</p>
             </a>
           </li>
-          <li>
+          <li class="card-item-list">
             <a href="#">
               <img
                 src="./imegeshw2/portfolio/img.jpg"
@@ -98,14 +98,14 @@
               <p class="title-text">Дизайн</p>
             </a>
           </li>
-          <li>
+          <li class="card-item-list">
             <a href="#">
               <img src="./imegeshw2/portfolio/img-1.jpg" width="322" alt="" />
               <h2 class="title-card">Ресторан Seafood</h2>
               <p class="title-text">Приложение</p>
             </a>
           </li>
-          <li>
+          <li class="card-item-list">
             <a href="#">
               <img src="./imegeshw2/portfolio/img-2.jpg" width="322" alt="" />
               <h2 class="title-card">Проект Prime</h2>
@@ -119,28 +119,28 @@
               <p class="title-text">Приложение</p>
             </a>
           </li>
-          <li>
+          <li class="card-item-list">
             <a href="#">
               <img src="./imegeshw2/portfolio/img-4.jpg" width="322" alt="" />
               <h2 class="title-card">Inspiration has no Borders</h2>
               <p class="title-text">Веб-сайт</p>
             </a>
           </li>
-          <li>
+          <li class="card-item-list">
             <a href="#">
               <img src="./imegeshw2/portfolio/img-5.jpg" width="322" alt="" />
               <h2 class="title-card">Издание Limited Edition</h2>
               <p class="title-text">Дизайн</p>
             </a>
           </li>
-          <li>
+          <li class="card-item-list">
             <a href="#">
               <img src="./imegeshw2/portfolio/img-6.jpg" width="322" alt="" />
               <h2 class="title-card">Проект LAB</h2>
               <p class="title-text">Маркетинг</p>
             </a>
           </li>
-          <li>
+          <li class="card-item-list">
             <a href="#">
               <img src="./imegeshw2/portfolio/img-7.jpg" width="322" alt="" />
               <h2 class="title-card">Growing Business</h2>
@@ -152,76 +152,55 @@
     </main>
     <!--footer-->
     <footer class="footer">
-      <div>
-        <a class="logo footer"><span class="logo-web">Web</span>Studio</a>
-        <address>
+      <div class="container flexbox">
+        <div class="footer-div">
+          <a class="logo footer"><span class="logo-web">Web</span>Studio</a>
+          <address>
+            <ul class="list">
+              <li>
+                <p class="adress-text">
+                  г. Киев, пр-т Леси Украинки, 26
+                </p>
+              </li>
+              <li>
+                <a href=" mailto:info@example.com" class="mail-link">
+                  info@example.com
+                </a>
+              </li>
+              <li>
+                <a href="tel:+380961111111" class="tel-link">
+                  +380961111111
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-div">
+          <b>Присоединяйтесь</b>
           <ul class="list">
             <li>
-              <p class="adress-text">
-                г. Киев, пр-т Леси Украинки, 26
-              </p>
+              <a href="" target="_blank" rel="noopener noreferrer" aria-label="Ссылка на Instagram"
+                class="social-networks">Instagram</a>
             </li>
             <li>
-              <a href=" mailto:info@example.com" class="mail-link">
-                info@example.com
-              </a>
+              <a href="" target="_blank" rel="noopener noreferrer" aria-label="Ссылка на Twitter"
+                class="social-networks">Twitter</a>
             </li>
             <li>
-              <a href="tel:+380961111111" class="tel-link">
-                +380961111111
-              </a>
+              <a href="" target="_blank" rel="noopener noreferrer" aria-label="Ссылка на Facebook"
+                class="social-networks">Facebook</a>
+            </li>
+            <li>
+              <a href="" target="_blank" rel="noopener noreferrer" aria-label="Ссылка на Linkedin"
+                class="social-networks">Linkedin</a>
             </li>
           </ul>
-        </address>
+        </div>
+        <div class="footer-div">
+          <b>подпишитесь на рассылку</b>
+        </div>
       </div>
-      <div>
-        <b>Присоединяйтесь</b>
-        <ul class="list">
-          <li>
-            <a
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Ссылка на Instagram"
-              class="social-networks"
-              >Instagram</a
-            >
-          </li>
-          <li>
-            <a
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Ссылка на Twitter"
-              class="social-networks"
-              >Twitter</a
-            >
-          </li>
-          <li>
-            <a
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Ссылка на Facebook"
-              class="social-networks"
-              >Facebook</a
-            >
-          </li>
-          <li>
-            <a
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Ссылка на Linkedin"
-              class="social-networks"
-              >Linkedin</a
-            >
-          </li>
-        </ul>
-      </div>
-      <div>
-        <b>подпишитесь на рассылку</b>
-      </div>
+     
     </footer>
   </body>
 </html>

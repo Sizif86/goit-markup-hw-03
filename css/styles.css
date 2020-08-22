@@ -272,7 +272,7 @@ a {
 .footer {
   color: var(--primary-white-color);
   background-color: var(--footer-bcg-color);
-  footer-block:nth-child(3n) {width: calc(50% - 15px);
+  footer-block: nth-child(3n) width calc(50% - 15px);
 }
 
 .logo.footer {
@@ -314,8 +314,9 @@ b {
   margin-bottom: 0px;
 }
 
-.btn:nth(:last-child){
-margin-right: 8px;
+.btn:not(:last-child) {
+  margin-right: 8px;
+  padding: 6, 22;
 }
 
 .button-second {
@@ -327,6 +328,7 @@ margin-right: 8px;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  padding: 6px 22px;
 }
 .card-hover {
   color: var(--primary-white-color);
@@ -348,8 +350,15 @@ margin-right: 8px;
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-} 
+}
 ul.list.button-list {
-    justify-content: center;
-    display: flex;
-
+  justify-content: center;
+  display: flex;
+}
+/* cards */
+.card-item {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-top: 55px;
+}
