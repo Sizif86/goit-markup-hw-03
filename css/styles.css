@@ -272,7 +272,6 @@ a {
 .footer {
   color: var(--primary-white-color);
   background-color: var(--footer-bcg-color);
-  footer-block: nth-child(3n) width calc(50% - 15px);
 }
 
 .logo.footer {
