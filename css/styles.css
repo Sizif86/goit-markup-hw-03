@@ -48,6 +48,15 @@ a {
 .about-us-list {
   display: flex;
 }
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.img:hover {
+  background-color: var(--accent-text);
+}
 .site-nav:hover,
 .site-nav:focus {
   color: var(--accent-text);
@@ -160,7 +169,6 @@ p {
 /*Герой*/
 .hero {
   color: var(--primary-white-color);
-  background-color: var(--hero-bcg-color);
 }
 .hero {
   text-align: center;
@@ -287,12 +295,17 @@ p {
   display: flex;
   justify-content: space-between;
 }
+.img-social:hover {
+  background-color: var(--accent-text);
+}
 /*Постоянные клиенты*/
 .clients:not(:last-child) {
   width: calc((100% - 30px) / 6);
   margin-right: 30px;
 }
-
+.img-client:hover {
+  background-color: var(--accent-text);
+}
 /*footer*/
 .footer {
   color: var(--primary-white-color);
@@ -340,7 +353,7 @@ b {
   display: flex;
   justify-content: center;
   list-style: none;
-  margin-bottom: 0px;
+  margin-bottom: 34px;
 }
 
 .btn:not(:last-child) {
@@ -358,6 +371,10 @@ b {
   line-height: 1.62;
   letter-spacing: 0.03em;
   padding: 6px 22px;
+}
+.button-second:hover,
+.button-second:focus {
+  background-color: var(--accent-text);
 }
 .card-hover {
   color: var(--primary-white-color);
@@ -389,5 +406,12 @@ ul.list.button-list {
   display: flex;
   align-content: center;
   flex-wrap: wrap;
-  margin-top: 55px;
+  margin: -15px;
+}
+.element {
+  width: 370px;
+  margin: 15px;
+}
+.element-item:hover {
+  background-color: #2196f3;
 }
