@@ -32,7 +32,8 @@ a {
 }
 
 .page-header {
-  padding: 24px;
+  padding: 24px 0px;
+  margin-bottom: 95px;
 }
 .container {
   width: 1200px;
@@ -68,6 +69,7 @@ a {
 .mail-link,
 .tel-link {
   color: var(--primary-white-color);
+  font-style: normal;
 }
 
 .mail-link:hover,
@@ -110,6 +112,9 @@ p {
 }
 .logo {
   margin-right: 85px;
+}
+.logo-studio {
+  color: #000000;
 }
 .flexbox {
   display: flex;
@@ -310,6 +315,8 @@ p {
 .footer {
   color: var(--primary-white-color);
   background-color: var(--footer-bcg-color);
+
+  padding: 60px 0px;
 }
 .footer-list-social {
   display: flex;
@@ -322,6 +329,8 @@ p {
 }
 .logo.footer {
   color: var(--primary-white-color);
+
+  padding: 0;
 }
 
 .address-text {
@@ -349,6 +358,15 @@ b {
 }
 
 /*Portfolio*/
+.link-portfolio {
+  color: var(--text-title-color);
+}
+.link-portfolio:hover {
+  color: var(--accent-text);
+}
+.site-nav .port {
+  color: var(--accent-text);
+}
 .button-item {
   display: flex;
   justify-content: center;
