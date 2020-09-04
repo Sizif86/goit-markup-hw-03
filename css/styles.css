@@ -16,7 +16,7 @@ html {
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 body {
@@ -183,6 +183,9 @@ p {
 .section {
   padding-bottom: 95px;
 }
+.team-background {
+  background: #f5f4fa;
+}
 .section-head {
   color: var(--primary-white-color);
   font-weight: 900;
@@ -315,8 +318,11 @@ p {
 .footer {
   color: var(--primary-white-color);
   background-color: var(--footer-bcg-color);
-
-  padding: 60px 0px;
+}
+.footer-main {
+  background: #2f303a;
+  height: 252px;
+  padding: 60px;
 }
 .footer-list-social {
   display: flex;
@@ -325,12 +331,14 @@ p {
 .container.footer {
   display: flex;
   justify-content: space-between;
-  background: #2f303a;
+  align-items: baseline;
+  /* background: #2f303a; */
 }
 .logo.footer {
   color: var(--primary-white-color);
 
-  padding: 0;
+  display: block;
+  margin-bottom: 20px;
 }
 
 .address-text {
@@ -380,7 +388,7 @@ b {
 }
 
 .button-second {
-  color: var(--title-text-color);
+  color: var(--text-title-color);
   background-color: #f5f4fa;
   border-radius: 4px;
   font-family: Roboto, sans-serif;
@@ -393,6 +401,7 @@ b {
 .button-second:hover,
 .button-second:focus {
   background-color: var(--accent-text);
+  color: white;
 }
 .card-hover {
   color: var(--primary-white-color);
